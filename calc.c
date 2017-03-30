@@ -17,7 +17,7 @@ int main(){
 			switch(operator) {
 				case '+':
 				result = add(operand1, operand2);
-				break;
+				break; 
 				case '-':
 				result = minus(operand1, operand2);
 				break;
@@ -27,7 +27,7 @@ int main(){
 				case '/':
 				result = div(operand1, operand2);
 				break;
-			}		
+			}	
 			printf("%d %c %d = %lf\n",
 				 operand1, operator, operand2, result);
 		}
